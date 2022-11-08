@@ -1,7 +1,7 @@
 <h1 align="center"> Calendário Copa do Mundo 2022 </h1>
 
 <p align="center">
-Site de uma agenda dos respectivos dos jogos da 1º, 2º e 3º rodadas da Copa do Mundo 2022 do Qatar
+Site de uma agenda dos respectivos dos jogos da 1º, 2º e 3º rodadas da Copa do Mundo 2022 do Qatar dividido pelos seus Grupos
 </p>
 <p align="center">
   <img alt="calendario copa" src="Capa2.jpg" width="100%">
