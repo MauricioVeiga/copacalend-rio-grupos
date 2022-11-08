@@ -46,7 +46,6 @@ body {
   font-family: "Roboto", sans-serif;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 
 #app {
@@ -59,6 +58,9 @@ body {
 
 header {
   margin-bottom: 15px;
+}
+header img {
+  width: 200px;
 }
 
 #cards {
@@ -115,7 +117,7 @@ main #cards {
 }
 
 .card h2 span {
-  color:#e1e1e6;
+  color: #e1e1e6;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -125,7 +127,7 @@ main #cards {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  width: 450px;
+  width: 250px;
 }
 
 .card ul li {
@@ -143,7 +145,7 @@ main #cards {
 
 .card ul li strong {
   font-weight: 900;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 125%;
   text-align: center;
   color: #e1e1e6;
@@ -167,7 +169,7 @@ main #cards {
 }
 
 #menu a:hover {
-  background-color:#e1e1e6;
+  background-color: #e1e1e6;
   border-radius: 5px;
   color: #261118;
 }
@@ -186,15 +188,15 @@ main #cards {
   }
 }
 
-
 .card h2:hover,
 .card ul li strong:hover,
 .card ul li img:hover {
-  transform: scale(1.1);
+  transform: scale(1.2,1.2);
   transition: all 0.3s ease;
 }
 
 .card {
+  opacity: 0;
   animation: appear 0.2s forwards;
 }
 
