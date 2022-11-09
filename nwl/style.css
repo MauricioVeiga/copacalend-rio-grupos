@@ -196,7 +196,6 @@ main #cards {
 }
 
 .card {
-  opacity: 0;
   animation: appear 0.2s forwards;
 }
 
