@@ -206,14 +206,14 @@ grupoF.addEventListener("click", () => {
     createCard(
       "23/11",
       "quarta",
-      createGame("maroccos", "07:00", "croatia") +
+      createGame("marrocos", "07:00", "croatia") +
         createGame("belgium", "16:00", "canada"),
       "1ª Rodada"
     ) +
     createCard(
       "27/11",
       "domingo",
-      createGame("belgium", "10:00", "maroccs") +
+      createGame("belgium", "10:00", "marrocos") +
         createGame("croatia", "13:00", "canada"),
       "2ª Rodada"
     ) +
@@ -221,7 +221,7 @@ grupoF.addEventListener("click", () => {
       "01/12",
       "quinta",
       createGame("croatia", "16:00", "belgium") +
-        createGame("canada", "16:00", "maroccos"),
+        createGame("canada", "16:00", "marrocos"),
       "3ª Rodada"
     )
 })
